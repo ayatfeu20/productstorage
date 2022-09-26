@@ -1,21 +1,27 @@
 .App {
   text-align: center;
+  background-color:#ecf8dd00;
+ 
+}
+body {
+	
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13px;
+	width: 100%;
+	height: 100%;
+	
+	
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
+
+
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  background-image: linear-gradient(to bottom,black,green);
+  min-height: 2vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,9 +30,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
